@@ -45,7 +45,24 @@
     "cta": {
       "title": "Listo para Empezar a Aprender?",
       "subtitle": "Unete a miles de estudiantes felices y haz que estudiar sea divertido!",
-      "button": "Crear Cuenta Gratis"
+      "button": "Crear Cuenta"
+    },
+    "quotes": {
+      "title": "Palabras de Sabiduria",
+      "list": [
+        { "text": "Cuanto mas aprendas, mas lugares conoceras.", "author": "Dr. Seuss", "country": "Americano" },
+        { "text": "La educacion no es llenar un cubo, sino encender un fuego.", "author": "W.B. Yeats", "country": "Irlandes" },
+        { "text": "Lo hermoso del aprendizaje es que nadie te lo puede quitar.", "author": "B.B. King", "country": "Americano" },
+        { "text": "Vive como si fueras a morir manana. Aprende como si fueras a vivir para siempre.", "author": "Mahatma Gandhi", "country": "Indio" },
+        { "text": "El que lee mucho y anda mucho, ve mucho y sabe mucho.", "author": "Miguel de Cervantes", "country": "Espanol" },
+        { "text": "La inteligencia consiste no solo en el conocimiento, sino tambien en la destreza de aplicar los conocimientos en la practica.", "author": "Aristoteles", "country": "Griego" },
+        { "text": "Nunca consideres el estudio como una obligacion, sino como una oportunidad.", "author": "Albert Einstein", "country": "Aleman" },
+        { "text": "Aprender es como remar contra corriente: en cuanto se deja, se retrocede.", "author": "Proverbio Chino", "country": "Chino" },
+        { "text": "Cae siete veces, levantate ocho.", "author": "Proverbio Japones", "country": "Japones" },
+        { "text": "El conocimiento es poder.", "author": "Francis Bacon", "country": "Ingles" },
+        { "text": "Estudia no para saber mas, sino para saber mejor.", "author": "Seneca", "country": "Romano" },
+        { "text": "La educacion es el arma mas poderosa para cambiar el mundo.", "author": "Nelson Mandela", "country": "Sudafricano" }
+      ]
     },
     "footer": {
       "madeWith": "Hecho con",

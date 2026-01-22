@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Button from '@/components/ui/Button'
 import Card from '@/components/ui/Card'
 import AsciiArt from '@/components/ui/AsciiArt'
+import RandomQuotes from '@/components/ui/RandomQuotes'
 import { getTranslations } from 'next-intl/server'
 
 // Icon components
@@ -160,6 +161,12 @@ export default async function HomePage() {
           </Link>
         </div>
       </section>
+
+      {/* Inspirational Quotes Section */}
+      <RandomQuotes
+        quotes={t.raw('quotes.list')}
+        title={t('quotes.title')}
+      />
 
       {/* Footer */}
       <footer className="py-8 px-4 bg-[var(--primary-50)] border-t-2 border-[var(--primary-100)]">

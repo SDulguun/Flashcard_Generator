@@ -45,7 +45,24 @@
     "cta": {
       "title": "准备好开始学习了吗？",
       "subtitle": "加入数千名快乐的学习者，让学习变得有趣！",
-      "button": "创建免费账户"
+      "button": "创建账户"
+    },
+    "quotes": {
+      "title": "智慧之言",
+      "list": [
+        { "text": "学得越多，走得越远。", "author": "苏斯博士", "country": "美国" },
+        { "text": "教育不是填满水桶，而是点燃火焰。", "author": "叶芝", "country": "爱尔兰" },
+        { "text": "学习的美妙之处在于，没有人能把它从你身边夺走。", "author": "B.B. 金", "country": "美国" },
+        { "text": "学而不思则罔，思而不学则殆。", "author": "孔子", "country": "中国" },
+        { "text": "千里之行，始于足下。", "author": "老子", "country": "中国" },
+        { "text": "书山有路勤为径，学海无涯苦作舟。", "author": "韩愈", "country": "中国" },
+        { "text": "活到老，学到老。", "author": "中国谚语", "country": "中国" },
+        { "text": "知识就是力量。", "author": "培根", "country": "英国" },
+        { "text": "吾生也有涯，而知也无涯。", "author": "庄子", "country": "中国" },
+        { "text": "三人行，必有我师焉。", "author": "孔子", "country": "中国" },
+        { "text": "温故而知新，可以为师矣。", "author": "孔子", "country": "中国" },
+        { "text": "业精于勤，荒于嬉。", "author": "韩愈", "country": "中国" }
+      ]
     },
     "footer": {
       "madeWith": "用心制作",

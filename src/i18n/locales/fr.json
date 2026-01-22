@@ -45,7 +45,24 @@
     "cta": {
       "title": "Pret a Commencer a Apprendre?",
       "subtitle": "Rejoignez des milliers d'apprenants heureux et rendez l'etude amusante!",
-      "button": "Creer un Compte Gratuit"
+      "button": "Creer un Compte"
+    },
+    "quotes": {
+      "title": "Paroles de Sagesse",
+      "list": [
+        { "text": "Plus vous apprenez, plus vous irez loin.", "author": "Dr. Seuss", "country": "Americain" },
+        { "text": "L'education n'est pas le remplissage d'un seau, mais l'allumage d'un feu.", "author": "W.B. Yeats", "country": "Irlandais" },
+        { "text": "La belle chose a propos de l'apprentissage, c'est que personne ne peut vous l'enlever.", "author": "B.B. King", "country": "Americain" },
+        { "text": "Savoir, c'est pouvoir.", "author": "Francis Bacon", "country": "Anglais" },
+        { "text": "Je pense, donc je suis.", "author": "Rene Descartes", "country": "Francais" },
+        { "text": "L'ignorance est la nuit de l'esprit.", "author": "Confucius", "country": "Chinois" },
+        { "text": "Apprendre sans reflechir est vain. Reflechir sans apprendre est dangereux.", "author": "Confucius", "country": "Chinois" },
+        { "text": "Le savoir est la seule matiere qui s'accroit quand on la partage.", "author": "Socrate", "country": "Grec" },
+        { "text": "Tombe sept fois, releve-toi huit.", "author": "Proverbe Japonais", "country": "Japonais" },
+        { "text": "L'education est l'arme la plus puissante pour changer le monde.", "author": "Nelson Mandela", "country": "Sud-africain" },
+        { "text": "Celui qui ouvre une porte d'ecole, ferme une prison.", "author": "Victor Hugo", "country": "Francais" },
+        { "text": "La connaissance s'acquiert par l'experience, tout le reste n'est que de l'information.", "author": "Albert Einstein", "country": "Allemand" }
+      ]
     },
     "footer": {
       "madeWith": "Fait avec",

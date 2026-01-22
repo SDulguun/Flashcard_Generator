@@ -45,7 +45,24 @@
     "cta": {
       "title": "Ready to Start Learning?",
       "subtitle": "Join thousands of happy learners and make studying fun!",
-      "button": "Create Free Account"
+      "button": "Create Account"
+    },
+    "quotes": {
+      "title": "Words of Wisdom",
+      "list": [
+        { "text": "The more you learn, the more places you'll go.", "author": "Dr. Seuss", "country": "American" },
+        { "text": "Education is not the filling of a pail, but the lighting of a fire.", "author": "W.B. Yeats", "country": "Irish" },
+        { "text": "The beautiful thing about learning is that no one can take it away from you.", "author": "B.B. King", "country": "American" },
+        { "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.", "author": "Mahatma Gandhi", "country": "Indian" },
+        { "text": "The only true wisdom is knowing that you know nothing.", "author": "Socrates", "country": "Greek" },
+        { "text": "Learning is a treasure that will follow its owner everywhere.", "author": "Chinese Proverb", "country": "Chinese" },
+        { "text": "Fall seven times, stand up eight.", "author": "Japanese Proverb", "country": "Japanese" },
+        { "text": "A person who never made a mistake never tried anything new.", "author": "Albert Einstein", "country": "German" },
+        { "text": "The roots of education are bitter, but the fruit is sweet.", "author": "Aristotle", "country": "Greek" },
+        { "text": "Tell me and I forget. Teach me and I remember. Involve me and I learn.", "author": "Benjamin Franklin", "country": "American" },
+        { "text": "Knowledge speaks, but wisdom listens.", "author": "Jimi Hendrix", "country": "American" },
+        { "text": "The mind is not a vessel to be filled, but a fire to be kindled.", "author": "Plutarch", "country": "Greek" }
+      ]
     },
     "footer": {
       "madeWith": "Made with",
