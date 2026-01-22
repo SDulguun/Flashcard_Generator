@@ -21,7 +21,12 @@ export async function GET(
         id,
         userId: session.user.id,
       },
-      include: {
+      select: {
+        id: true,
+        title: true,
+        description: true,
+        isPublic: true,
+        shareToken: true,
         cards: true,
       },
     })
