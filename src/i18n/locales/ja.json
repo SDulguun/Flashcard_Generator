@@ -1,0 +1,237 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "finish": "完了",
+    "create": "作成",
+    "search": "検索",
+    "noResults": "結果が見つかりません"
+  },
+  "nav": {
+    "brand": "FlashLearn",
+    "myDecks": "マイデッキ",
+    "signIn": "ログイン",
+    "signOut": "ログアウト",
+    "getStarted": "始める"
+  },
+  "home": {
+    "hero": {
+      "title": "楽しく学ぼう！",
+      "subtitle": "美しいフラッシュカードを作成し、スマートに学習し、進捗を追跡しましょう。学習がこんなに簡単になったことはありません！",
+      "getStarted": "始める",
+      "login": "ログイン"
+    },
+    "features": {
+      "title": "気に入る理由",
+      "createDecks": {
+        "title": "デッキを作成",
+        "description": "フラッシュカードを美しいデッキに整理。質問と回答を簡単に追加！"
+      },
+      "studyModes": {
+        "title": "複数の学習モード",
+        "description": "カードをめくったり、クイズに挑戦したり、マッチングゲームをしたり。あなたに合った学習方法を見つけよう！"
+      },
+      "trackProgress": {
+        "title": "進捗を追跡",
+        "description": "各カードの理解度を確認。自分のペースで全てのトピックをマスターしよう！"
+      }
+    },
+    "cta": {
+      "title": "学習を始める準備はできましたか？",
+      "subtitle": "何千人もの幸せな学習者に加わり、勉強を楽しくしましょう！",
+      "button": "無料アカウントを作成"
+    },
+    "footer": {
+      "madeWith": "作成者",
+      "by": "FlashLearnチーム"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "おかえりなさい！",
+      "subtitle": "フラッシュカードにアクセスするにはログインしてください",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "button": "ログイン",
+      "loggingIn": "ログイン中...",
+      "noAccount": "アカウントをお持ちでないですか？",
+      "signUp": "こちらで登録！"
+    },
+    "register": {
+      "title": "アカウント作成",
+      "subtitle": "参加して学習を始めよう！",
+      "name": "名前",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "confirmPassword": "パスワード確認",
+      "button": "登録",
+      "creatingAccount": "アカウント作成中...",
+      "hasAccount": "すでにアカウントをお持ちですか？",
+      "signIn": "こちらでログイン！",
+      "errors": {
+        "passwordMismatch": "パスワードが一致しません",
+        "passwordLength": "パスワードは6文字以上必要です"
+      }
+    },
+    "errors": {
+      "somethingWrong": "エラーが発生しました"
+    }
+  },
+  "dashboard": {
+    "title": "マイデッキ",
+    "createDeck": "デッキを作成",
+    "searchPlaceholder": "タイトルまたは説明でデッキを検索...",
+    "filterByTag": "タグで絞り込み:",
+    "clearFilters": "フィルターをクリア",
+    "decks": "デッキ",
+    "deck": "デッキ",
+    "filteredFrom": "件中から絞り込み",
+    "empty": {
+      "title": "まだデッキがありません",
+      "subtitle": "最初のフラッシュカードデッキを作成して学習を始めましょう",
+      "button": "最初のデッキを作成"
+    },
+    "noMatch": {
+      "title": "一致するデッキがありません",
+      "subtitle": "検索条件またはフィルターを調整してください"
+    },
+    "loading": "デッキを読み込み中...",
+    "stats": {
+      "streak": "連続日数",
+      "level": "レベル",
+      "cardsDue": "復習予定",
+      "mastered": "マスター済み",
+      "xpToNext": "次のレベルまで"
+    },
+    "progress": {
+      "title": "学習の進捗",
+      "mastered": "マスター済み",
+      "review": "復習",
+      "learning": "学習中",
+      "new": "新規"
+    },
+    "dueAlert": {
+      "title": "{count}枚のカードを復習する必要があります",
+      "subtitle": "今日復習して連続記録を維持しましょう",
+      "button": "復習を開始"
+    },
+    "confirmDelete": "このデッキを削除してもよろしいですか？"
+  },
+  "decks": {
+    "backToDecks": "デッキ一覧に戻る",
+    "new": {
+      "title": "新しいデッキを作成",
+      "aiGenerate": "AIで生成",
+      "orManually": "または手動で作成",
+      "generated": "フラッシュカードが生成されました！"
+    },
+    "edit": {
+      "title": "デッキを編集"
+    },
+    "form": {
+      "deckInfo": "デッキ情報",
+      "title": "タイトル",
+      "titlePlaceholder": "例：スペイン語の単語",
+      "description": "説明",
+      "descriptionPlaceholder": "このデッキは何についてですか？",
+      "cards": "カード",
+      "addCard": "カードを追加",
+      "front": "表面（質問/用語）",
+      "back": "裏面（答え/定義）",
+      "save": "デッキを保存",
+      "saving": "保存中..."
+    },
+    "detail": {
+      "cards": "枚のカード",
+      "study": "学習",
+      "edit": "編集",
+      "export": "エクスポート",
+      "delete": "削除",
+      "confirmDelete": "このデッキを削除してもよろしいですか？",
+      "cardsPreview": "カードプレビュー",
+      "front": "表面",
+      "back": "裏面"
+    }
+  },
+  "study": {
+    "loading": "学習セッションを読み込み中...",
+    "noCards": {
+      "title": "まだカードがありません！",
+      "subtitle": "まずこのデッキにカードを追加してください。",
+      "button": "カードを追加"
+    },
+    "backToDeck": "デッキに戻る",
+    "changeMode": "モードを変更",
+    "modes": {
+      "title": "学習モードを選択",
+      "cardsToReview": "今日復習するカード",
+      "dueAndNew": "{due}枚の復習予定 + {new}枚の新しいカード",
+      "startReview": "復習を開始",
+      "smartReview": {
+        "title": "スマート復習",
+        "description": "間隔反復 - 必要なときにカードを復習！",
+        "cardsReady": "{count}枚のカード準備完了"
+      },
+      "flipCards": {
+        "title": "カードをめくる",
+        "description": "クラシックなフラッシュカード学習"
+      },
+      "quiz": {
+        "title": "クイズモード",
+        "description": "選択問題"
+      },
+      "match": {
+        "title": "マッチングゲーム",
+        "description": "用語をマッチ",
+        "needMore": "4枚以上のカードが必要"
+      }
+    },
+    "flip": {
+      "cardOf": "{total}枚中{current}枚目",
+      "clickToFlip": "カードをクリックしてめくる！"
+    },
+    "results": {
+      "title": "よくできました！",
+      "reviewed": "{count}枚のカードを復習しました！",
+      "keepItUp": "この調子で頑張りましょう！",
+      "studyAgain": "もう一度学習",
+      "backToDeck": "デッキに戻る"
+    }
+  },
+  "flashcard": {
+    "question": "質問",
+    "answer": "答え"
+  },
+  "review": {
+    "allCaughtUp": "全て完了！",
+    "noCardsDue": "現在復習予定のカードはありません。",
+    "rating": {
+      "again": "もう一度",
+      "hard": "難しい",
+      "good": "良い",
+      "easy": "簡単"
+    }
+  },
+  "export": {
+    "title": "デッキをエクスポート",
+    "formats": {
+      "json": "JSON",
+      "csv": "CSV",
+      "anki": "Anki"
+    }
+  },
+  "upload": {
+    "dropzone": "ファイルをここにドロップまたはクリックしてアップロード",
+    "processing": "処理中...",
+    "errors": {
+      "unsupportedType": "サポートされていないファイル形式",
+      "fileTooLarge": "ファイルサイズは10MB以下にしてください"
+    }
+  }
+}

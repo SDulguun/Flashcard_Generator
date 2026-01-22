@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model User {
+  id        String     @id @default(cuid())
+  email     String     @unique
+  password  String
+  name      String?
+  createdAt DateTime   @default(now())
+  decks     Deck[]
+  progress  Progress[]
+  tags      Tag[]
+  streak    Int        @default(0)
+  lastStudyDate DateTime?
+  totalXp   Int        @default(0)
+}
+
+model Deck {
+  id          String    @id @default(cuid())
+  title       String
+  description String?
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cards       Card[]
+  tags        DeckTag[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Card {
+  id       String     @id @default(cuid())
+  front    String
+  back     String
+  deckId   String
+  deck     Deck       @relation(fields: [deckId], references: [id], onDelete: Cascade)
+  progress Progress[]
+}
+
+model Progress {
+  id          String   @id @default(cuid())
+  userId      String
+  cardId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card        Card     @relation(fields: [cardId], references: [id], onDelete: Cascade)
+
+  // Spaced Repetition (SM-2 Algorithm)
+  easeFactor  Float    @default(2.5)  // Ease factor (min 1.3, starts at 2.5)
+  interval    Int      @default(0)    // Days until next review
+  nextReview  DateTime @default(now()) // When to review this card
+  reviewCount Int      @default(0)    // Total times reviewed
+
+  // Mastery level: 0=New, 1=Learning, 2=Review, 3=Mastered
+  mastery     Int      @default(0)
+  lastStudied DateTime @default(now())
+
+  @@unique([userId, cardId])
+}
+
+model Tag {
+  id     String    @id @default(cuid())
+  name   String
+  color  String    @default("#ec4899")
+  userId String
+  user   User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  decks  DeckTag[]
+
+  @@unique([name, userId])
+}
+
+model DeckTag {
+  deckId String
+  tagId  String
+  deck   Deck   @relation(fields: [deckId], references: [id], onDelete: Cascade)
+  tag    Tag    @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([deckId, tagId])
+}

@@ -1,0 +1,237 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "back": "返回",
+    "next": "下一个",
+    "previous": "上一个",
+    "finish": "完成",
+    "create": "创建",
+    "search": "搜索",
+    "noResults": "未找到结果"
+  },
+  "nav": {
+    "brand": "FlashLearn",
+    "myDecks": "我的卡组",
+    "signIn": "登录",
+    "signOut": "退出",
+    "getStarted": "开始使用"
+  },
+  "home": {
+    "hero": {
+      "title": "快乐学习！",
+      "subtitle": "创建精美的闪卡，更聪明地学习，跟踪您的进度。学习从未如此简单！",
+      "getStarted": "开始使用",
+      "login": "登录"
+    },
+    "features": {
+      "title": "为什么您会喜欢它",
+      "createDecks": {
+        "title": "创建卡组",
+        "description": "将您的闪卡整理成精美的卡组。轻松添加问题和答案！"
+      },
+      "studyModes": {
+        "title": "多种学习模式",
+        "description": "翻转卡片、做测验或玩配对游戏。找到最适合您的学习方式！"
+      },
+      "trackProgress": {
+        "title": "跟踪进度",
+        "description": "查看每张卡片的掌握程度。按自己的节奏掌握每个主题！"
+      }
+    },
+    "cta": {
+      "title": "准备好开始学习了吗？",
+      "subtitle": "加入数千名快乐的学习者，让学习变得有趣！",
+      "button": "创建免费账户"
+    },
+    "footer": {
+      "madeWith": "用心制作",
+      "by": "FlashLearn团队"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "欢迎回来！",
+      "subtitle": "登录以访问您的闪卡",
+      "email": "邮箱",
+      "password": "密码",
+      "button": "登录",
+      "loggingIn": "登录中...",
+      "noAccount": "没有账户？",
+      "signUp": "在此注册！"
+    },
+    "register": {
+      "title": "创建账户",
+      "subtitle": "加入我们，开始学习！",
+      "name": "姓名",
+      "email": "邮箱",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "button": "注册",
+      "creatingAccount": "创建账户中...",
+      "hasAccount": "已有账户？",
+      "signIn": "在此登录！",
+      "errors": {
+        "passwordMismatch": "密码不匹配",
+        "passwordLength": "密码必须至少6个字符"
+      }
+    },
+    "errors": {
+      "somethingWrong": "出错了"
+    }
+  },
+  "dashboard": {
+    "title": "我的卡组",
+    "createDeck": "创建卡组",
+    "searchPlaceholder": "按标题或描述搜索卡组...",
+    "filterByTag": "按标签筛选:",
+    "clearFilters": "清除筛选",
+    "decks": "个卡组",
+    "deck": "个卡组",
+    "filteredFrom": "筛选自",
+    "empty": {
+      "title": "还没有卡组",
+      "subtitle": "创建您的第一个闪卡卡组并开始学习",
+      "button": "创建您的第一个卡组"
+    },
+    "noMatch": {
+      "title": "没有匹配的卡组",
+      "subtitle": "尝试调整您的搜索或筛选条件"
+    },
+    "loading": "加载卡组中...",
+    "stats": {
+      "streak": "连续天数",
+      "level": "等级",
+      "cardsDue": "待复习",
+      "mastered": "已掌握",
+      "xpToNext": "距下一级"
+    },
+    "progress": {
+      "title": "学习进度",
+      "mastered": "已掌握",
+      "review": "待复习",
+      "learning": "学习中",
+      "new": "新卡片"
+    },
+    "dueAlert": {
+      "title": "您有 {count} 张卡片需要复习",
+      "subtitle": "今天复习以保持连续记录",
+      "button": "开始复习"
+    },
+    "confirmDelete": "确定要删除这个卡组吗？"
+  },
+  "decks": {
+    "backToDecks": "返回卡组列表",
+    "new": {
+      "title": "创建新卡组",
+      "aiGenerate": "AI生成",
+      "orManually": "或手动创建",
+      "generated": "闪卡已生成！"
+    },
+    "edit": {
+      "title": "编辑卡组"
+    },
+    "form": {
+      "deckInfo": "卡组信息",
+      "title": "标题",
+      "titlePlaceholder": "例如：西班牙语词汇",
+      "description": "描述",
+      "descriptionPlaceholder": "这个卡组是关于什么的？",
+      "cards": "卡片",
+      "addCard": "添加卡片",
+      "front": "正面（问题/术语）",
+      "back": "背面（答案/定义）",
+      "save": "保存卡组",
+      "saving": "保存中..."
+    },
+    "detail": {
+      "cards": "张卡片",
+      "study": "学习",
+      "edit": "编辑",
+      "export": "导出",
+      "delete": "删除",
+      "confirmDelete": "确定要删除这个卡组吗？",
+      "cardsPreview": "卡片预览",
+      "front": "正面",
+      "back": "背面"
+    }
+  },
+  "study": {
+    "loading": "加载学习会话中...",
+    "noCards": {
+      "title": "还没有卡片！",
+      "subtitle": "请先为这个卡组添加一些卡片。",
+      "button": "添加卡片"
+    },
+    "backToDeck": "返回卡组",
+    "changeMode": "更改模式",
+    "modes": {
+      "title": "选择学习模式",
+      "cardsToReview": "今日待复习卡片",
+      "dueAndNew": "{due}张待复习 + {new}张新卡片",
+      "startReview": "开始复习",
+      "smartReview": {
+        "title": "智能复习",
+        "description": "间隔重复 - 在需要时复习卡片！",
+        "cardsReady": "{count}张卡片已准备好"
+      },
+      "flipCards": {
+        "title": "翻转卡片",
+        "description": "经典闪卡学习"
+      },
+      "quiz": {
+        "title": "测验模式",
+        "description": "多选题"
+      },
+      "match": {
+        "title": "配对游戏",
+        "description": "匹配术语",
+        "needMore": "需要4张以上卡片"
+      }
+    },
+    "flip": {
+      "cardOf": "第{current}张，共{total}张",
+      "clickToFlip": "点击卡片翻转！"
+    },
+    "results": {
+      "title": "做得好！",
+      "reviewed": "您复习了{count}张卡片！",
+      "keepItUp": "继续保持！",
+      "studyAgain": "再次学习",
+      "backToDeck": "返回卡组"
+    }
+  },
+  "flashcard": {
+    "question": "问题",
+    "answer": "答案"
+  },
+  "review": {
+    "allCaughtUp": "全部完成！",
+    "noCardsDue": "目前没有待复习的卡片。",
+    "rating": {
+      "again": "重来",
+      "hard": "困难",
+      "good": "良好",
+      "easy": "简单"
+    }
+  },
+  "export": {
+    "title": "导出卡组",
+    "formats": {
+      "json": "JSON",
+      "csv": "CSV",
+      "anki": "Anki"
+    }
+  },
+  "upload": {
+    "dropzone": "将文件拖放到此处或点击上传",
+    "processing": "处理中...",
+    "errors": {
+      "unsupportedType": "不支持的文件类型",
+      "fileTooLarge": "文件大小必须小于10MB"
+    }
+  }
+}

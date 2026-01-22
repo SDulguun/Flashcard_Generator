@@ -1,0 +1,237 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Finish",
+    "create": "Create",
+    "search": "Search",
+    "noResults": "No results found"
+  },
+  "nav": {
+    "brand": "FlashLearn",
+    "myDecks": "My Decks",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "getStarted": "Get started"
+  },
+  "home": {
+    "hero": {
+      "title": "Learn with Joy!",
+      "subtitle": "Create beautiful flashcards, study smarter, and track your progress. Learning has never been this easy!",
+      "getStarted": "Get Started",
+      "login": "Login"
+    },
+    "features": {
+      "title": "Why You'll Love It",
+      "createDecks": {
+        "title": "Create Decks",
+        "description": "Organize your flashcards into beautiful decks. Add questions and answers with ease!"
+      },
+      "studyModes": {
+        "title": "Multiple Study Modes",
+        "description": "Flip cards, take quizzes, or play matching games. Find your perfect way to learn!"
+      },
+      "trackProgress": {
+        "title": "Track Progress",
+        "description": "See how well you're doing with each card. Master every topic at your own pace!"
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Learning?",
+      "subtitle": "Join thousands of happy learners and make studying fun!",
+      "button": "Create Free Account"
+    },
+    "footer": {
+      "madeWith": "Made with",
+      "by": "by FlashLearn Team"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back!",
+      "subtitle": "Login to access your flashcards",
+      "email": "Email",
+      "password": "Password",
+      "button": "Login",
+      "loggingIn": "Logging in...",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up here!"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join us and start learning!",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "button": "Sign Up",
+      "creatingAccount": "Creating account...",
+      "hasAccount": "Already have an account?",
+      "signIn": "Login here!",
+      "errors": {
+        "passwordMismatch": "Passwords do not match",
+        "passwordLength": "Password must be at least 6 characters"
+      }
+    },
+    "errors": {
+      "somethingWrong": "Something went wrong"
+    }
+  },
+  "dashboard": {
+    "title": "My Decks",
+    "createDeck": "Create Deck",
+    "searchPlaceholder": "Search decks by title or description...",
+    "filterByTag": "Filter by tag:",
+    "clearFilters": "Clear filters",
+    "decks": "decks",
+    "deck": "deck",
+    "filteredFrom": "filtered from",
+    "empty": {
+      "title": "No decks yet",
+      "subtitle": "Create your first flashcard deck and start learning",
+      "button": "Create Your First Deck"
+    },
+    "noMatch": {
+      "title": "No matching decks",
+      "subtitle": "Try adjusting your search or filter criteria"
+    },
+    "loading": "Loading your decks...",
+    "stats": {
+      "streak": "Day Streak",
+      "level": "Level",
+      "cardsDue": "Cards Due",
+      "mastered": "Mastered",
+      "xpToNext": "XP to next"
+    },
+    "progress": {
+      "title": "Learning Progress",
+      "mastered": "Mastered",
+      "review": "Review",
+      "learning": "Learning",
+      "new": "New"
+    },
+    "dueAlert": {
+      "title": "You have {count} cards to review",
+      "subtitle": "Keep your streak going by reviewing today",
+      "button": "Start Review"
+    },
+    "confirmDelete": "Are you sure you want to delete this deck?"
+  },
+  "decks": {
+    "backToDecks": "Back to Decks",
+    "new": {
+      "title": "Create New Deck",
+      "aiGenerate": "AI Generate",
+      "orManually": "or create manually",
+      "generated": "Generated flashcards!"
+    },
+    "edit": {
+      "title": "Edit Deck"
+    },
+    "form": {
+      "deckInfo": "Deck Info",
+      "title": "Title",
+      "titlePlaceholder": "e.g., Spanish Vocabulary",
+      "description": "Description",
+      "descriptionPlaceholder": "What's this deck about?",
+      "cards": "Cards",
+      "addCard": "Add Card",
+      "front": "Front (Question/Term)",
+      "back": "Back (Answer/Definition)",
+      "save": "Save Deck",
+      "saving": "Saving..."
+    },
+    "detail": {
+      "cards": "cards",
+      "study": "Study",
+      "edit": "Edit",
+      "export": "Export",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this deck?",
+      "cardsPreview": "Cards Preview",
+      "front": "FRONT",
+      "back": "BACK"
+    }
+  },
+  "study": {
+    "loading": "Loading study session...",
+    "noCards": {
+      "title": "No cards yet!",
+      "subtitle": "Add some cards to this deck first.",
+      "button": "Add Cards"
+    },
+    "backToDeck": "Back to Deck",
+    "changeMode": "Change Mode",
+    "modes": {
+      "title": "Choose Your Study Mode",
+      "cardsToReview": "Cards to Review Today",
+      "dueAndNew": "{due} due + {new} new cards",
+      "startReview": "Start Review",
+      "smartReview": {
+        "title": "Smart Review",
+        "description": "Spaced repetition - review cards when you need to!",
+        "cardsReady": "{count} cards ready"
+      },
+      "flipCards": {
+        "title": "Flip Cards",
+        "description": "Classic flashcard study"
+      },
+      "quiz": {
+        "title": "Quiz Mode",
+        "description": "Multiple choice questions"
+      },
+      "match": {
+        "title": "Match Game",
+        "description": "Match terms",
+        "needMore": "Need 4+ cards"
+      }
+    },
+    "flip": {
+      "cardOf": "Card {current} of {total}",
+      "clickToFlip": "Click the card to flip!"
+    },
+    "results": {
+      "title": "Great Job!",
+      "reviewed": "You reviewed {count} cards!",
+      "keepItUp": "Keep up the great work!",
+      "studyAgain": "Study Again",
+      "backToDeck": "Back to Deck"
+    }
+  },
+  "flashcard": {
+    "question": "QUESTION",
+    "answer": "ANSWER"
+  },
+  "review": {
+    "allCaughtUp": "All caught up!",
+    "noCardsDue": "No cards due for review right now.",
+    "rating": {
+      "again": "Again",
+      "hard": "Hard",
+      "good": "Good",
+      "easy": "Easy"
+    }
+  },
+  "export": {
+    "title": "Export Deck",
+    "formats": {
+      "json": "JSON",
+      "csv": "CSV",
+      "anki": "Anki"
+    }
+  },
+  "upload": {
+    "dropzone": "Drop files here or click to upload",
+    "processing": "Processing...",
+    "errors": {
+      "unsupportedType": "Unsupported file type",
+      "fileTooLarge": "File size must be less than 10MB"
+    }
+  }
+}

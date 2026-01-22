@@ -1,0 +1,237 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Precedent",
+    "finish": "Terminer",
+    "create": "Creer",
+    "search": "Rechercher",
+    "noResults": "Aucun resultat trouve"
+  },
+  "nav": {
+    "brand": "FlashLearn",
+    "myDecks": "Mes Paquets",
+    "signIn": "Se connecter",
+    "signOut": "Se deconnecter",
+    "getStarted": "Commencer"
+  },
+  "home": {
+    "hero": {
+      "title": "Apprenez avec Joie!",
+      "subtitle": "Creez de belles cartes memoire, etudiez plus intelligemment et suivez vos progres. Apprendre n'a jamais ete aussi facile!",
+      "getStarted": "Commencer",
+      "login": "Connexion"
+    },
+    "features": {
+      "title": "Pourquoi Vous Allez L'adorer",
+      "createDecks": {
+        "title": "Creer des Paquets",
+        "description": "Organisez vos cartes dans de beaux paquets. Ajoutez questions et reponses facilement!"
+      },
+      "studyModes": {
+        "title": "Modes d'Etude Multiples",
+        "description": "Retournez des cartes, passez des quiz ou jouez a des jeux d'association. Trouvez votre facon parfaite d'apprendre!"
+      },
+      "trackProgress": {
+        "title": "Suivre les Progres",
+        "description": "Voyez comment vous vous en sortez avec chaque carte. Maitrisez chaque sujet a votre rythme!"
+      }
+    },
+    "cta": {
+      "title": "Pret a Commencer a Apprendre?",
+      "subtitle": "Rejoignez des milliers d'apprenants heureux et rendez l'etude amusante!",
+      "button": "Creer un Compte Gratuit"
+    },
+    "footer": {
+      "madeWith": "Fait avec",
+      "by": "par l'Equipe FlashLearn"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bon Retour!",
+      "subtitle": "Connectez-vous pour acceder a vos cartes",
+      "email": "Email",
+      "password": "Mot de passe",
+      "button": "Connexion",
+      "loggingIn": "Connexion en cours...",
+      "noAccount": "Vous n'avez pas de compte?",
+      "signUp": "Inscrivez-vous ici!"
+    },
+    "register": {
+      "title": "Creer un Compte",
+      "subtitle": "Rejoignez-nous et commencez a apprendre!",
+      "name": "Nom",
+      "email": "Email",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "button": "S'inscrire",
+      "creatingAccount": "Creation du compte...",
+      "hasAccount": "Vous avez deja un compte?",
+      "signIn": "Connectez-vous ici!",
+      "errors": {
+        "passwordMismatch": "Les mots de passe ne correspondent pas",
+        "passwordLength": "Le mot de passe doit avoir au moins 6 caracteres"
+      }
+    },
+    "errors": {
+      "somethingWrong": "Quelque chose s'est mal passe"
+    }
+  },
+  "dashboard": {
+    "title": "Mes Paquets",
+    "createDeck": "Creer un Paquet",
+    "searchPlaceholder": "Rechercher des paquets par titre ou description...",
+    "filterByTag": "Filtrer par etiquette:",
+    "clearFilters": "Effacer les filtres",
+    "decks": "paquets",
+    "deck": "paquet",
+    "filteredFrom": "filtres sur",
+    "empty": {
+      "title": "Pas encore de paquets",
+      "subtitle": "Creez votre premier paquet de cartes et commencez a apprendre",
+      "button": "Creer Votre Premier Paquet"
+    },
+    "noMatch": {
+      "title": "Aucun paquet correspondant",
+      "subtitle": "Essayez d'ajuster votre recherche ou vos criteres de filtre"
+    },
+    "loading": "Chargement de vos paquets...",
+    "stats": {
+      "streak": "Jours Consecutifs",
+      "level": "Niveau",
+      "cardsDue": "Cartes en Attente",
+      "mastered": "Maitrisees",
+      "xpToNext": "XP pour suivant"
+    },
+    "progress": {
+      "title": "Progression d'Apprentissage",
+      "mastered": "Maitrisees",
+      "review": "A Reviser",
+      "learning": "En Cours",
+      "new": "Nouvelles"
+    },
+    "dueAlert": {
+      "title": "Vous avez {count} cartes a reviser",
+      "subtitle": "Maintenez votre serie en revisant aujourd'hui",
+      "button": "Commencer la Revision"
+    },
+    "confirmDelete": "Etes-vous sur de vouloir supprimer ce paquet?"
+  },
+  "decks": {
+    "backToDecks": "Retour aux Paquets",
+    "new": {
+      "title": "Creer un Nouveau Paquet",
+      "aiGenerate": "Generer par IA",
+      "orManually": "ou creer manuellement",
+      "generated": "Cartes generees!"
+    },
+    "edit": {
+      "title": "Modifier le Paquet"
+    },
+    "form": {
+      "deckInfo": "Info du Paquet",
+      "title": "Titre",
+      "titlePlaceholder": "ex., Vocabulaire Espagnol",
+      "description": "Description",
+      "descriptionPlaceholder": "De quoi parle ce paquet?",
+      "cards": "Cartes",
+      "addCard": "Ajouter une Carte",
+      "front": "Recto (Question/Terme)",
+      "back": "Verso (Reponse/Definition)",
+      "save": "Sauvegarder le Paquet",
+      "saving": "Sauvegarde..."
+    },
+    "detail": {
+      "cards": "cartes",
+      "study": "Etudier",
+      "edit": "Modifier",
+      "export": "Exporter",
+      "delete": "Supprimer",
+      "confirmDelete": "Etes-vous sur de vouloir supprimer ce paquet?",
+      "cardsPreview": "Apercu des Cartes",
+      "front": "RECTO",
+      "back": "VERSO"
+    }
+  },
+  "study": {
+    "loading": "Chargement de la session d'etude...",
+    "noCards": {
+      "title": "Pas encore de cartes!",
+      "subtitle": "Ajoutez d'abord des cartes a ce paquet.",
+      "button": "Ajouter des Cartes"
+    },
+    "backToDeck": "Retour au Paquet",
+    "changeMode": "Changer de Mode",
+    "modes": {
+      "title": "Choisissez Votre Mode d'Etude",
+      "cardsToReview": "Cartes a Reviser Aujourd'hui",
+      "dueAndNew": "{due} en attente + {new} nouvelles cartes",
+      "startReview": "Commencer la Revision",
+      "smartReview": {
+        "title": "Revision Intelligente",
+        "description": "Repetition espacee - revisez les cartes quand vous en avez besoin!",
+        "cardsReady": "{count} cartes pretes"
+      },
+      "flipCards": {
+        "title": "Retourner les Cartes",
+        "description": "Etude classique de cartes"
+      },
+      "quiz": {
+        "title": "Mode Quiz",
+        "description": "Questions a choix multiples"
+      },
+      "match": {
+        "title": "Jeu d'Association",
+        "description": "Associer les termes",
+        "needMore": "Besoin de 4+ cartes"
+      }
+    },
+    "flip": {
+      "cardOf": "Carte {current} sur {total}",
+      "clickToFlip": "Cliquez sur la carte pour la retourner!"
+    },
+    "results": {
+      "title": "Excellent Travail!",
+      "reviewed": "Vous avez revise {count} cartes!",
+      "keepItUp": "Continuez comme ca!",
+      "studyAgain": "Etudier a Nouveau",
+      "backToDeck": "Retour au Paquet"
+    }
+  },
+  "flashcard": {
+    "question": "QUESTION",
+    "answer": "REPONSE"
+  },
+  "review": {
+    "allCaughtUp": "Tout est a jour!",
+    "noCardsDue": "Pas de cartes en attente de revision pour le moment.",
+    "rating": {
+      "again": "A revoir",
+      "hard": "Difficile",
+      "good": "Bien",
+      "easy": "Facile"
+    }
+  },
+  "export": {
+    "title": "Exporter le Paquet",
+    "formats": {
+      "json": "JSON",
+      "csv": "CSV",
+      "anki": "Anki"
+    }
+  },
+  "upload": {
+    "dropzone": "Deposez les fichiers ici ou cliquez pour telecharger",
+    "processing": "Traitement...",
+    "errors": {
+      "unsupportedType": "Type de fichier non supporte",
+      "fileTooLarge": "La taille du fichier doit etre inferieure a 10Mo"
+    }
+  }
+}

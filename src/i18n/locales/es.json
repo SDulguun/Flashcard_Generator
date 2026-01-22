@@ -1,0 +1,237 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "finish": "Terminar",
+    "create": "Crear",
+    "search": "Buscar",
+    "noResults": "No se encontraron resultados"
+  },
+  "nav": {
+    "brand": "FlashLearn",
+    "myDecks": "Mis Mazos",
+    "signIn": "Iniciar sesion",
+    "signOut": "Cerrar sesion",
+    "getStarted": "Comenzar"
+  },
+  "home": {
+    "hero": {
+      "title": "Aprende con Alegria!",
+      "subtitle": "Crea tarjetas de memoria hermosas, estudia de manera mas inteligente y sigue tu progreso. Aprender nunca ha sido tan facil!",
+      "getStarted": "Comenzar",
+      "login": "Iniciar sesion"
+    },
+    "features": {
+      "title": "Por que te encantara",
+      "createDecks": {
+        "title": "Crear Mazos",
+        "description": "Organiza tus tarjetas en hermosos mazos. Agrega preguntas y respuestas facilmente!"
+      },
+      "studyModes": {
+        "title": "Multiples Modos de Estudio",
+        "description": "Voltea tarjetas, haz cuestionarios o juega juegos de emparejamiento. Encuentra tu forma perfecta de aprender!"
+      },
+      "trackProgress": {
+        "title": "Seguir Progreso",
+        "description": "Mira que tan bien lo estas haciendo con cada tarjeta. Domina cada tema a tu propio ritmo!"
+      }
+    },
+    "cta": {
+      "title": "Listo para Empezar a Aprender?",
+      "subtitle": "Unete a miles de estudiantes felices y haz que estudiar sea divertido!",
+      "button": "Crear Cuenta Gratis"
+    },
+    "footer": {
+      "madeWith": "Hecho con",
+      "by": "por el Equipo FlashLearn"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenido de Nuevo!",
+      "subtitle": "Inicia sesion para acceder a tus tarjetas",
+      "email": "Correo electronico",
+      "password": "Contrasena",
+      "button": "Iniciar sesion",
+      "loggingIn": "Iniciando sesion...",
+      "noAccount": "No tienes una cuenta?",
+      "signUp": "Registrate aqui!"
+    },
+    "register": {
+      "title": "Crear Cuenta",
+      "subtitle": "Unete y comienza a aprender!",
+      "name": "Nombre",
+      "email": "Correo electronico",
+      "password": "Contrasena",
+      "confirmPassword": "Confirmar Contrasena",
+      "button": "Registrarse",
+      "creatingAccount": "Creando cuenta...",
+      "hasAccount": "Ya tienes una cuenta?",
+      "signIn": "Inicia sesion aqui!",
+      "errors": {
+        "passwordMismatch": "Las contrasenas no coinciden",
+        "passwordLength": "La contrasena debe tener al menos 6 caracteres"
+      }
+    },
+    "errors": {
+      "somethingWrong": "Algo salio mal"
+    }
+  },
+  "dashboard": {
+    "title": "Mis Mazos",
+    "createDeck": "Crear Mazo",
+    "searchPlaceholder": "Buscar mazos por titulo o descripcion...",
+    "filterByTag": "Filtrar por etiqueta:",
+    "clearFilters": "Limpiar filtros",
+    "decks": "mazos",
+    "deck": "mazo",
+    "filteredFrom": "filtrados de",
+    "empty": {
+      "title": "Aun no hay mazos",
+      "subtitle": "Crea tu primer mazo de tarjetas y comienza a aprender",
+      "button": "Crear Tu Primer Mazo"
+    },
+    "noMatch": {
+      "title": "No se encontraron mazos",
+      "subtitle": "Intenta ajustar tu busqueda o criterios de filtro"
+    },
+    "loading": "Cargando tus mazos...",
+    "stats": {
+      "streak": "Dias Seguidos",
+      "level": "Nivel",
+      "cardsDue": "Tarjetas Pendientes",
+      "mastered": "Dominadas",
+      "xpToNext": "XP para siguiente"
+    },
+    "progress": {
+      "title": "Progreso de Aprendizaje",
+      "mastered": "Dominadas",
+      "review": "Revisar",
+      "learning": "Aprendiendo",
+      "new": "Nuevas"
+    },
+    "dueAlert": {
+      "title": "Tienes {count} tarjetas para revisar",
+      "subtitle": "Mantén tu racha revisando hoy",
+      "button": "Iniciar Revision"
+    },
+    "confirmDelete": "¿Estas seguro de que quieres eliminar este mazo?"
+  },
+  "decks": {
+    "backToDecks": "Volver a Mazos",
+    "new": {
+      "title": "Crear Nuevo Mazo",
+      "aiGenerate": "Generar con IA",
+      "orManually": "o crear manualmente",
+      "generated": "Tarjetas generadas!"
+    },
+    "edit": {
+      "title": "Editar Mazo"
+    },
+    "form": {
+      "deckInfo": "Info del Mazo",
+      "title": "Titulo",
+      "titlePlaceholder": "ej., Vocabulario de Espanol",
+      "description": "Descripcion",
+      "descriptionPlaceholder": "De que trata este mazo?",
+      "cards": "Tarjetas",
+      "addCard": "Agregar Tarjeta",
+      "front": "Frente (Pregunta/Termino)",
+      "back": "Atras (Respuesta/Definicion)",
+      "save": "Guardar Mazo",
+      "saving": "Guardando..."
+    },
+    "detail": {
+      "cards": "tarjetas",
+      "study": "Estudiar",
+      "edit": "Editar",
+      "export": "Exportar",
+      "delete": "Eliminar",
+      "confirmDelete": "¿Estas seguro de que quieres eliminar este mazo?",
+      "cardsPreview": "Vista Previa de Tarjetas",
+      "front": "FRENTE",
+      "back": "ATRAS"
+    }
+  },
+  "study": {
+    "loading": "Cargando sesion de estudio...",
+    "noCards": {
+      "title": "Aun no hay tarjetas!",
+      "subtitle": "Primero agrega algunas tarjetas a este mazo.",
+      "button": "Agregar Tarjetas"
+    },
+    "backToDeck": "Volver al Mazo",
+    "changeMode": "Cambiar Modo",
+    "modes": {
+      "title": "Elige tu Modo de Estudio",
+      "cardsToReview": "Tarjetas para Revisar Hoy",
+      "dueAndNew": "{due} pendientes + {new} nuevas tarjetas",
+      "startReview": "Iniciar Revision",
+      "smartReview": {
+        "title": "Revision Inteligente",
+        "description": "Repeticion espaciada - revisa tarjetas cuando lo necesites!",
+        "cardsReady": "{count} tarjetas listas"
+      },
+      "flipCards": {
+        "title": "Voltear Tarjetas",
+        "description": "Estudio clasico de tarjetas"
+      },
+      "quiz": {
+        "title": "Modo Quiz",
+        "description": "Preguntas de opcion multiple"
+      },
+      "match": {
+        "title": "Juego de Emparejar",
+        "description": "Emparejar terminos",
+        "needMore": "Necesitas 4+ tarjetas"
+      }
+    },
+    "flip": {
+      "cardOf": "Tarjeta {current} de {total}",
+      "clickToFlip": "Haz clic en la tarjeta para voltearla!"
+    },
+    "results": {
+      "title": "Excelente Trabajo!",
+      "reviewed": "Revisaste {count} tarjetas!",
+      "keepItUp": "Sigue asi!",
+      "studyAgain": "Estudiar de Nuevo",
+      "backToDeck": "Volver al Mazo"
+    }
+  },
+  "flashcard": {
+    "question": "PREGUNTA",
+    "answer": "RESPUESTA"
+  },
+  "review": {
+    "allCaughtUp": "Todo al dia!",
+    "noCardsDue": "No hay tarjetas pendientes de revision ahora.",
+    "rating": {
+      "again": "Repetir",
+      "hard": "Dificil",
+      "good": "Bien",
+      "easy": "Facil"
+    }
+  },
+  "export": {
+    "title": "Exportar Mazo",
+    "formats": {
+      "json": "JSON",
+      "csv": "CSV",
+      "anki": "Anki"
+    }
+  },
+  "upload": {
+    "dropzone": "Suelta archivos aqui o haz clic para subir",
+    "processing": "Procesando...",
+    "errors": {
+      "unsupportedType": "Tipo de archivo no soportado",
+      "fileTooLarge": "El archivo debe ser menor a 10MB"
+    }
+  }
+}
