@@ -48,7 +48,7 @@ export async function GET(
     title: deck.title,
     description: deck.description,
     cards: deck.cards,
-    tags: deck.tags.map(dt => dt.tag.name)
+    tags: deck.tags.map((dt: { tag: { name: string } }) => dt.tag.name)
   }
 
   // Generate export content
